@@ -1,0 +1,633 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .left-content-element {
+        width: 100%;
+    }
+    
+    .hero-bottom-content {
+        justify-content: space-around;
+    }
+    
+    .bas-van .right-content {
+        transform: translateX(20px);
+    }
+    
+    .ont-left-content {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    
+    .ont-werp-right img {
+        height: 50%;
+    }
+    
+    .ont-left-content p {
+        margin-bottom: 25px;
+        line-height: 28px;
+    }
+    
+    .left-content-element p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    
+    .left-content-element h2 {
+        margin-bottom: 10px;
+    }
+    
+    .footer-logo {
+    }
+    
+    .footer-icon {
+    }
+    
+    .footer-icon a {margin: auto;margin-bottom: 20px;}
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .left-content-element {
+        width: 100%;
+    }
+    
+    .hero-bottom-content {
+        justify-content: space-around;
+    }
+    
+    .bas-van .right-content {
+        width: 100%;
+        transform: translateX(-12px);
+    }
+
+.bas-van .right-content img {
+    width: 100%;
+    max-width: 300px;
+}
+    
+    .ont-left-content {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    
+    .ont-werp-right img {
+        height: 50%;
+    }
+    
+    .ont-left-content p {
+        margin-bottom: 25px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+    
+    .left-content-element p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    
+    .left-content-element h2 {
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+    
+    .footer-logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    }
+    
+    .footer-icon {
+    margin-top: 10px;
+    }
+    img.user {
+        width: 100%;
+        max-width: 385px;
+    }
+    
+    .hero-bottom-content p {
+        font-size: 26px;
+    }
+    
+    .right-content a {
+        font-size: 20px;
+        padding: 20px 30px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .right-content a i {
+        transform: translateY(-1px);
+    }
+    
+    .ont-sign {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    
+    .ont-left-content h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    
+    .footer-logo img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .footer-element-first {
+        padding-left: 0;
+        margin-left: -40px;
+    }
+    
+    .footer-element {
+        margin-left: -40px;
+    }
+    
+    .footer-element-first h4 {
+        font-size: 20px;
+    }
+    
+    .footer-element p {
+        font-size: 16px;
+    }
+    
+    .footer-element a {
+        font-size: 16px;
+    }
+    
+    .footer-element-first h4:first-child {
+        height: 40px;
+    }
+    
+    .footer-icon a i {
+        font-size: 30px;
+    }
+    
+    section.footer {
+        padding: 55px 0;
+    }
+    
+    .footer-bottom p {
+        font-size: 16px;
+    }
+    
+    section.footer-bottom {
+        padding: 30px;
+    }
+    
+    section.hero {
+        height: 450px;
+    }
+    
+    .navbar-logo a img {
+        max-width: 300px;
+        object-fit: contain;
+    }
+    
+    .footer-icon a {margin: auto;margin-bottom: 23px;font-size: 30px;}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .left-content-element {
+        width: 100%;
+    }
+    
+    .hero-bottom-content {
+        justify-content: space-around;
+    }
+    
+    .bas-van .right-content {
+        width: 100%;
+        transform: unset;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.bas-van .right-content img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+    
+    .ont-left-content {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    
+    .ont-werp-right img {
+        height: 300px;
+        width: 50%;
+    }
+    
+    .ont-left-content p {
+        line-height: 26px;
+        font-size: 18px;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    
+    .left-content-element p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    
+    .left-content-element h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    .footer-logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    }
+    
+    .footer-icon {
+    margin-top: 10px;
+    }
+    img.user {
+        width: 100%;
+        max-width: 385px;
+    }
+    
+    .hero-bottom-content p {
+        font-size: 20px;
+    }
+    
+    .right-content a {
+        font-size: 20px;
+        padding: 20px 30px;
+        width: 100%;
+        margin-top: 35px;
+        max-width: 300px;
+    }
+    
+    .right-content a i {
+        transform: translateY(-1px);
+    }
+    
+    .ont-sign {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    
+    .ont-left-content h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    
+    .footer-logo img {
+        width: 100%;
+        max-width: 219px;
+    }
+    
+    .footer-element-first {
+        padding-left: 0;
+        margin-left: 28px;
+    }
+    
+    .footer-element {
+    margin-left: 50px;
+    }
+    
+    .footer-element-first h4 {
+        font-size: 20px;
+    }
+    
+    .footer-element p {
+        font-size: 16px;
+        width: 193px;
+    }
+    
+    .footer-element a {
+        font-size: 16px;
+    }
+    
+    .footer-element-first h4:first-child {
+        height: 40px;
+    }
+    
+    .footer-icon a i {
+        font-size: 30px;
+    }
+    
+    section.footer {
+        padding: 55px 0;
+    }
+    
+    .footer-bottom p {
+        font-size: 16px;
+    }
+    
+    section.footer-bottom {
+        padding: 30px;
+    }
+    
+    section.hero {
+        height: 315px;
+    }
+    
+    .navbar-logo a img {
+        max-width: 251px;
+        object-fit: contain;
+    }
+
+.navbar {
+    padding: 20px 0 10px;
+}
+    
+    .footer-icon a {margin: auto;margin-bottom: 23px;font-size: 30px;}
+    .bas-van-element {
+        flex-wrap: wrap;
+    }
+    
+    section.bas-van:before {
+        width: 100%;
+        height: 34%;
+        bottom: 0;
+        top: auto;
+    }
+    
+    .ont-werp-element {
+        flex-wrap: wrap;
+    }
+    
+    .ont-werp-left {
+        flex: 0 0 100%;
+    }
+    
+    .ont-img-div {
+        margin: 30px 0 50px;
+    }
+    
+    .ont-werp-right {
+        display: flex;
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .left-content-element {
+        width: 100%;
+    }
+    
+    .hero-bottom-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .bas-van .right-content {
+        width: 100%;
+        transform: unset;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 40px;
+    }
+
+.bas-van .left-content {
+    padding-top: 60px;
+}
+
+.bas-van .right-content img {
+    width: 100%;
+    max-width: 300px;
+    margin: 12px 0;
+}
+    
+    .ont-left-content {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    
+    .ont-werp-right img {
+        height: 300px;
+        width: 50%;
+    }
+    
+    .ont-left-content p {
+        line-height: 24px;
+        font-size: 16px;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 25px;
+        width: 100%;
+        padding: 0 10px;
+        max-width: 400px;
+    }
+
+.ont-left-content p a {
+    font-size: 18px;
+}
+    
+    .left-content-element p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+    
+    .left-content-element h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    
+    .footer-logo {
+    margin: 0;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    height: max-content;
+    margin-bottom: 40px;
+    }
+    
+    .footer-icon {
+    margin-top: 10px;
+    display: flex;
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 55px;
+    }
+    img.user {
+        width: 100%;
+        max-width: 385px;
+    }
+    
+    .hero-bottom-content p {
+        font-size: 18px;
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    .right-content a {
+        font-size: 20px;
+        padding: 20px 30px;
+        width: 100%;
+        margin-top: 35px;
+        max-width: 300px;
+    }
+    
+    .right-content a i {
+        transform: translateY(-1px);
+    }
+    
+    .ont-sign {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        max-width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+
+.ont-sign img {
+    width: 100%;
+    display: block;
+}
+    
+    .ont-left-content h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    
+    .footer-logo img {
+        width: 100%;
+        max-width: 219px;
+    }
+    
+    .footer-element-first {
+        padding-left: 15px;
+        width: max-content;
+    }
+    
+    .footer-element {
+    float: right;
+    margin: auto;
+    width: max-content;
+    margin-top: -121px;
+    }
+    
+    .footer-element-first h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-element p {
+        font-size: 16px;
+        width: 193px;
+        margin-bottom: 21px;
+    }
+    
+    .footer-element a {
+        font-size: 15px;
+        display: block;
+    }
+    
+    .footer-element-first h4:first-child {
+        height: 40px;
+    }
+    
+    .footer-icon a i {
+        font-size: 30px;
+    }
+    
+    section.footer {
+        padding: 55px 0;
+    }
+    
+    .footer-bottom p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    section.footer-bottom {
+        padding: 30px;
+    }
+    
+    section.hero {
+        height: 184px;
+    }
+    
+    .navbar-logo a img {
+        max-width: 179px;
+        object-fit: contain;
+    }
+
+.navbar {
+    padding: 20px 0 10px;
+}
+    
+    .footer-icon a {margin: auto;margin-bottom: 23px;font-size: 30px;}
+    .bas-van-element {
+        flex-wrap: wrap;
+    }
+    
+    section.bas-van:before {
+        width: 100%;
+        height: 1200px;
+        bottom: 0;
+        top: auto;
+    }
+    
+    .ont-werp-element {
+        flex-wrap: wrap;
+    }
+    
+    .ont-werp-left {
+        flex: 0 0 100%;
+    }
+    
+    .ont-img-div {
+        margin: 30px 0 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 149px;
+        margin: 40px auto;
+    }
+
+.ont-img-div img {
+    width: 100%;
+    margin: 7px 0;
+    object-fit: cover;
+}
+    
+    .ont-werp-right {
+        display: flex;
+    }
+    .footer-content {
+        flex-wrap: wrap;
+        display: block;
+        max-width: 353px;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .hero-bottom-content{
+    justify-content: space-around;
+}
+section.hero {
+    height: 300px;
+}
+ 
+}
