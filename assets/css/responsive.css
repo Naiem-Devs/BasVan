@@ -425,7 +425,7 @@
         transform: unset;
         text-align: center;
         /* margin-bottom: 20px; */
-        padding-top: 63px;
+        padding-top: 58px;
     }
 
 .right-content.img_item .btn-right a {
@@ -437,6 +437,7 @@
 
 .bas-van .left-content {
     padding-top: 60px;
+    margin-bottom: 0;
 }
 
 .bas-van .right-content img {
@@ -513,12 +514,12 @@
         text-align: center;
     }
     
-    .right-content a {
+    a.btn.MEER {
         font-size: 20px;
-        /* padding: 20px 10px; */
-        /* width: 100%; */
-        /* margin-top: 35px; */
-        /* max-width: 300px; */
+        padding: 20px 1px;
+        width: 100%;
+        margin-top: 35px;
+        max-width: 300px;
     }
     
     .right-content a i {
@@ -617,7 +618,7 @@
     
     section.bas-van:before {
         width: 100%;
-        height: 200px;
+        height: 170px;
         bottom: 0;
         top: auto;
     }
