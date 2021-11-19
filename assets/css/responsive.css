@@ -710,7 +710,7 @@ body.before section.bas-van:before {
     }
 
 .ont-img-div img {
-    width: 100%;
+    width: 140;
     margin: 7px 0;
     object-fit: cover;
 }
