@@ -32,7 +32,11 @@
     </section>
 
     <!-- hero section start -->
-    <section class="hero"></section>
+	<div class="hero-slider owl-carousel">
+		<section class="hero"></section>
+		<section class="hero"></section>
+		<section class="hero"></section>
+	</div>
 
     <!-- hero-bottom section  -->
     <section class="hero-bottom">
@@ -40,7 +44,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="hero-bottom-content">
-              <p>Bas van Overveld Tuinontwerp & Advies</p>
+              <p class="Overveld">Bas van Overveld Tuinontwerp & Advies</p>
               <p>Recente Projecten</p>
             </div>
           </div>
@@ -150,9 +154,9 @@
 								Hiervoor werkt Bas samen met Cube 3D Design.
 							</p>
 							<div class="ont-img-div" data-aos="fade-up">
-								<img src="assets/img/ont1.jpg" alt="">
-								<img src="assets/img/ont2.jpg" alt="">
-								<img src="assets/img/ont3.jpg" alt="">
+								<a href="assets/img/ont1.jpg"  class="image-link2"><img src="assets/img/ont1.jpg" alt=""></a>
+								<a href="assets/img/ont2.jpg" class="image-link2"><img src="assets/img/ont2.jpg" alt=""></a>
+								<a href="assets/img/ont3.jpg" class="image-link2"><img src="assets/img/ont3.jpg" alt=""></a>
 							</div>
 							<h2>Realisatie </h2>
 							<p>
@@ -267,6 +271,19 @@
 			},
 			type:'image'
 		});
+		$('.image-link2').magnificPopup({
+			gallery: {
+			enabled: true
+			},
+			type:'image'
+		});
+
+	$(".hero-slider").owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      items: 1
+    });
 
 		$(".slider-area").owlCarousel({
       loop: true,

@@ -58,6 +58,12 @@
     .owl-carousel.slider-area.owl-loaded.owl-drag {
         margin-left: 90px;
       }
+      .hero-bottom-content p {
+        font-size: 30px;
+    }
+    .navbar-logo a img{
+    width: 260px;
+}
 }
 
 /* LG Device :992px. */
@@ -94,8 +100,12 @@
     .ont-left-content p {
         margin-bottom: 25px;
         line-height: 26px;
-        font-size: 16px;
+        font-size: 18px;
     }
+
+.ont-left-content p a {
+    font-size: 18px;
+}
     
     .left-content-element p {
         font-size: 16px;
@@ -204,7 +214,7 @@
     }
     
     .navbar-logo a img {
-        max-width: 300px;
+        max-width: 250px;
         object-fit: contain;
     }
     
@@ -462,6 +472,9 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+.hero-bottom-content {
+}
     
     .bas-van .right-content {
         width: 100%;
@@ -552,10 +565,14 @@
     }
     
     .hero-bottom-content p {
-        font-size: 18px;
-        margin: 5px 0;
+        font-size: 20px;
+        margin: 0px 0;
         text-align: center;
     }
+
+p.Overveld {
+    display: none;
+}
     
     a.btn.MEER {
         font-size: 20px;
@@ -658,10 +675,15 @@
     .bas-van-element {
         flex-wrap: wrap;
     }
+
+.left-content-element img {
+    margin: 15px 0 30px;
+    width: 45px;
+}
     
     section.bas-van:before {
         width: 100%;
-        height: 1474px;
+        height: 695px;
         bottom: 0;
         top: auto;
     }
@@ -719,6 +741,10 @@ body.before section.bas-van:before {
     .slider_img {
         width: 100%;
     }
+
+.slider_img a:nth-child(3), .slider_img a:nth-child(4) {
+    display: none;
+}
     
     .slider_img a {
         width: 100%;
@@ -780,6 +806,9 @@ span.PROJECTEN {
     width: 400px;
     font-size: 21px;
     padding: 20px 0;
+}
+section.bas-van:before{
+    height: 851px;
 }
  
 }
