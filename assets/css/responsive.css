@@ -2,6 +2,8 @@
 @media (min-width: 1200px) and (max-width: 1449px) {
     .left-content-element {
         width: 100%;
+        max-width: 600px;
+        margin-left: 35px;
     }
     
     .hero-bottom-content {
@@ -25,6 +27,7 @@
     .ont-left-content p {
         margin-bottom: 25px;
         line-height: 28px;
+        padding: 0 50px;
     }
     
     .left-content-element p {
@@ -38,12 +41,20 @@
     }
     
     .footer-logo {
+    width: 419px;
     }
+
+.footer-logo img {
+    width: 100%;
+}
     
     .footer-icon {
     }
     
     .footer-icon a {margin: auto;margin-bottom: 20px;}
+    .footer-element-first {
+        padding-left: 0;
+    }
 }
 
 /* LG Device :992px. */
@@ -64,6 +75,7 @@
 .bas-van .right-content img {
     width: 100%;
     max-width: 300px;
+    top: 0;
 }
     
     .ont-left-content {
@@ -114,10 +126,15 @@
     
     .right-content a {
         font-size: 20px;
-        padding: 20px 30px;
-        width: 100%;
+        /* padding: 20px 30px; */
+        /* width: 100%; */
         max-width: 300px;
     }
+
+.right-content a.MEER {
+    font-size: 20px;
+    padding: 30px 0;
+}
     
     .right-content a i {
         transform: translateY(-1px);
@@ -208,11 +225,16 @@
         transform: unset;
         text-align: center;
         margin-bottom: 20px;
+        height: unset;
     }
 
 .bas-van .right-content img {
     width: 100%;
-    max-width: 300px;
+    max-width: 302px;
+    /* margin: 10px; */
+}
+
+.right-content.img_item a {
     margin: 10px;
 }
     
@@ -266,12 +288,19 @@
     }
     
     .right-content a {
-        font-size: 20px;
-        padding: 20px 30px;
-        width: 100%;
-        margin-top: 35px;
+        /* font-size: 20px; */
+        /* padding: 20px 2px; */
+        /* width: 100%; */
+        /* margin-top: 35px; */
         max-width: 300px;
     }
+
+.right-content a.MEER {
+    font-size: 20px;
+    padding: 30px 0;
+    position: relative;
+    z-index: 9;
+}
     
     .right-content a i {
         transform: translateY(-1px);
@@ -354,7 +383,7 @@
     
     section.bas-van:before {
         width: 100%;
-        height: 34%;
+        height: 175px;
         bottom: 0;
         top: auto;
     }
@@ -374,6 +403,9 @@
     .ont-werp-right {
         display: flex;
     }
+    body.before section.bas-van:before {
+        height: 745px;
+    }
 }
  
 
@@ -392,9 +424,16 @@
         width: 100%;
         transform: unset;
         text-align: center;
-        margin-bottom: 20px;
-        padding-top: 40px;
+        /* margin-bottom: 20px; */
+        padding-top: 63px;
     }
+
+.right-content.img_item .btn-right a {
+    padding: 25px 0;
+    margin: 30px;
+}
+
+.right-content.img_item a {max-width: 300px;font-size: 20px;/* padding: 21px 0; */margin-bottom: 0;}
 
 .bas-van .left-content {
     padding-top: 60px;
@@ -404,6 +443,7 @@
     width: 100%;
     max-width: 300px;
     margin: 12px 0;
+    left: 0;
 }
     
     .ont-left-content {
@@ -475,10 +515,10 @@
     
     .right-content a {
         font-size: 20px;
-        padding: 20px 30px;
-        width: 100%;
-        margin-top: 35px;
-        max-width: 300px;
+        /* padding: 20px 10px; */
+        /* width: 100%; */
+        /* margin-top: 35px; */
+        /* max-width: 300px; */
     }
     
     .right-content a i {
@@ -577,10 +617,14 @@
     
     section.bas-van:before {
         width: 100%;
-        height: 1200px;
+        height: 200px;
         bottom: 0;
         top: auto;
     }
+
+body.before section.bas-van:before {
+    height: 1200px;
+}
     
     .ont-werp-element {
         flex-wrap: wrap;

@@ -108,7 +108,25 @@ body {
   text-align: right;
   padding-top: 100px;
   transform: translateX(40px);
+  height: 240px;
+  overflow: hidden;
+  transition: .3s;
 }
+
+.bas-van .right-content img {
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+}
+
+.right-content.img_item {height: unset;transition: .3s;overflow: auto;}
+
+.right-content.img_item img {
+    position: unset;
+    opacity: 1;
+}
+
+.img_item img {}
 
 .bas-van-element {
   display: flex;
@@ -154,7 +172,7 @@ section.bas-van:before {content: "";position: absolute;top: 0;right: 0;height: 1
   margin-bottom: 25px;
 }
 
-.right-content a {
+.right-content a.MEER {
   color: #fff;
   width: 425px;
   display: inline-block;
@@ -163,11 +181,17 @@ section.bas-van:before {content: "";position: absolute;top: 0;right: 0;height: 1
   text-transform: uppercase;
   font-size: 27px;
   transition: 0.3s;
+  position: relative;
+  z-index: 9;
+}
+
+a.btn.MEER.arr i {
+    transform: rotate(178deg) translateY(4px);
 }
 
 .right-content a:hover {
-  background-color: #fff;
-  color: #c1864b;
+  /* background-color: #fff; */
+  /* color: #c1864b; */
 }
 
 .right-content a i {
